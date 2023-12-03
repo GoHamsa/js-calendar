@@ -3,7 +3,7 @@ let clicked = null;
 let events = localStorage.getItem('events')
   ? JSON.parse(localStorage.getItem('events'))
   : [];
-// test
+// test 02
 const calendar = document.getElementById('calendar');
 const newEventModal = document.getElementById('newEventModal');
 const deleteEventModal = document.getElementById('deleteEventModal');
